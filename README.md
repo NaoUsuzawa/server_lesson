@@ -1,0 +1,10 @@
+-ls $B%G%#%l%/%H%jFb$KB8:_$9$k%G%#%l%/%H%j$d%U%!%$%k$r0lMwI=<($9$k(B
+-pwd $B8=:_<+J,$,0LCV$7$F$$$k%G%#%l%/%H%j$rI=<((B
+-cd $B%o!<%-%s%0%G%#%l%/%H%j$r;XDj$7$?%G%#%l%/%H%j$KJQ99(B
+-mkdir $B%G%#%l%/%H%j$r:n@.$9$k(B
+-touch $B%U%!%$%k$r:n@.$9$k(B
+-cp $B%U%!%$%k$"$k$$$O%G%#%l%/%H%j$N%3%T!<$r9T$&(B
+-mv $B%U%!%$%k$d%G%#%l%/%H%j$N0¥F0$r9T$&(B
+-rm $B%U%!%$%k$d%G%#%l%/%H%j$N:o=|$r9T$&(B
+-cat $B;XDj$7$?%U%!%$%k$NFbMF$r%?!<%_%J%k>e$K=PNO$9$k(B
+-vim $B%?!<%_%J%k>e$GB(;‾5/F0$G$-$k%(%G%#%?(B

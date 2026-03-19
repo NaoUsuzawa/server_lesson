@@ -1,0 +1,149 @@
+    1  docker stop debian
+    2  docker stop debian
+    3  docker start debian
+    4  exit
+    5  ls
+    6  ls /usr
+    7  pwd
+    8  d
+    9  cd /root
+   10  pwd
+   11  cd /root
+   12  cd usr
+   13  cd /usr
+   14  pwd
+   15  cd /home
+   16  mkdir test1
+   17  ls
+   18  cd /home
+   19  mkgir test2/test3
+   20  mkdir test2/test3
+   21  cd /home
+   22  mkdir test2/test3
+   23  mkdir -p test2/test3
+   24  ls test2
+   25  cd /home
+   26  touch test1/index.php
+   27  ls test1
+   28  cd home/test1 && ls
+   29  cd /home/test1 && ls
+   30  cp /home/test1
+   31  cd /home/test1
+   32  cp index.php copy.php
+   33  ls
+   34  cd /home
+   35  cp -r test1 test4
+   36  ls
+   37  ls test4
+   38  cd /home
+   39  mv test2/test3 test3
+   40  ls
+   41  cd /home
+   42  mv test4 test_1_copy
+   43  ls
+   44  cd /home
+   45  ls test1
+   46  rm test1/copy.php
+   47  ls test1
+   48  cd /home
+   49  rm -r test3
+   50  ls
+   51  cd /home
+   52  rm test1_copy/*.php
+   53  rm test_1_copy/*.php
+   54  ls test_1_copy
+   55  cd /home
+   56  echo '# Hello World' > README.md
+   57  cat README.md
+   58  echo '# Server Lesson' > README.md
+   59  cat README.md
+   60  cd /home
+   61  echo 'Linux Practice' >> README.md
+   62  echo '-----------------' >> README.md
+   63  cat README.md
+   64  apt update -y && apt install -y vim
+   65  cd /home
+   66  vi README.md
+   67  vi ~/.vimrc
+   68  vi ~/.vimrc
+   69  source ~/.vimrc
+   70  vi README.md
+   71  i
+   72  vi README.md
+   73  cd /root
+   74  mkdir server_lesson && server_lesson
+   75  mkdir server_lesson && cd server_lesson
+   76  cd server_lesson
+   77  apt update -y && apt install -y git
+   78  git version
+   79  git init
+   80  touch first.txt
+   81  pwd
+   82  ls
+   83  touch linux_practice1
+   84  cd linux_practice1 
+   85  rm linux_practice1 
+   86  mkdir linux_practice1
+   87  cd linux_practice1
+   88  ls
+   89  mkdir public
+   90  cd public
+   91  touch index.php
+   92  cp index.php index_bk.php
+   93  ls
+   94  cp -r public tmp
+   95  cd /linux_practice1
+   96  pwd
+   97  pwd
+   98  cd /linux_practice1
+   99  cd linux_practice1
+  100  cd ..
+  101  cp -r public tmp
+  102  ls
+  103  cd /tmp
+  104  ls
+  105  cd tmp
+  106  rm tmp
+  107  ls
+  108  rm /tmp
+  109  rm -r /tmp
+  110  ;s
+  111  ls
+  112  cd server_lesson/linux_practice1/tmp
+  113  ls
+  114  pwd
+  115  rm /tmp
+  116  cd /
+  117  rm tmp
+  118  pwd
+  119  ls
+  120  cd root
+  121  pwd
+  122  ls
+  123  cd server_lesson
+  124  cd /linux_practice1/tmp
+  125  cd linux_practice1/tmp
+  126  rm index_bk.php
+  127  ls
+  128  cd ...
+  129  cd ..
+  130  ls
+  131  pwd
+  132  cd ..
+  133  pwd
+  134  touch README.md
+  135  ls
+  136  vim README.md 
+  137  exit
+  138  mv documents/gizumo{20..40}.md trash/
+  139  mv documents/gizumo2*.md documents/gizumo3*.md documents/gizumo40.md trash/
+  140  ls
+  141  cd documents
+  142  ls
+  143  cd ../trash
+  144  ls
+  145  cd ..
+  146  touch .gitignore
+  147  vi .gitignore
+  148  history 300
+  149  history 300 > exec_command.log
